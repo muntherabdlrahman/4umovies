@@ -2,10 +2,6 @@
 
 
 
-console.log('Welcom to my Website');
-
-
-
 
 
 var Moviestype= prompt ('What is your favorite type of movies?');
