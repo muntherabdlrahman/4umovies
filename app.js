@@ -17,14 +17,14 @@ while(Moviestype !=='romantic' && Moviestype !== 'action' && Moviestype !== 'hor
 
 var usertype;
 if(Moviestype ==='romantic'){
-  usertype='<img src= "https://asformeandmyhomestead.com/wp-content/uploads/2020/02/25-Most-Romantic-Movies-1.jpg">';
-  document.write('Enjoy with the romantic movies!');
+  usertype='<img src= "https://asformeandmyhomestead.com/wp-content/uploads/2020/02/25-Most-Romantic-Movies-1.jpg"> ';
+  
 }else if(Moviestype ==='action'){
   usertype=  '<img src="https://movienasha.com/wp-content/uploads/2016/11/action-movie-1.jpg">';
-  document.write=('Injoy with the best action movies!!')
+ 
 }else if(Moviestype === 'horror'){
   usertype='<img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Scary-horror-movies-Netflix-featured.jpg">';
-  document.write=('Take your breath');
+  
 }
 
 
