@@ -1,39 +1,36 @@
-var Userlike=prompt('Please enter how many numbers of Movies did you like? ')
 
-if (Userlike>=4){
-alert('You are in the right place :)')
-alert('Welcome!') 
 
-}else if(Userlike>=1){
-  alert('Get your journey enjoyment by watch')
-  alert('4Umovies Your website & Your place')
+
+
+console.log('Welcom to my Website');
+
+
+
+
+
+var Moviestype= prompt ('What is your favorite type of movies?');
+
+while(Moviestype !=='romantic' && Moviestype !== 'action' && Moviestype !== 'horror' )
+{
+  Moviestype= prompt('Please enter one of the type movies romantic or action neither horror ');
+}
+
+var usertype;
+if(Moviestype ==='romantic'){
+  usertype='<img src= "https://asformeandmyhomestead.com/wp-content/uploads/2020/02/25-Most-Romantic-Movies-1.jpg">';
+  document.write('Enjoy with the romantic movies!');
+}else if(Moviestype ==='action'){
+  usertype=  '<img src="https://movienasha.com/wp-content/uploads/2016/11/action-movie-1.jpg">';
+  document.write=('Injoy with the best action movies!!')
+}else if(Moviestype === 'horror'){
+  usertype='<img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Scary-horror-movies-Netflix-featured.jpg">';
+  document.write=('Take your breath');
 }
 
 
+var images= prompt('How many movies you will watch?');
 
-var Youlike=prompt('What your favorite time to watch?')
-
-if(Youlike >=18){
-  document.write('You should watch Action Movies!')
-  document.write('<img src= https://pbs.twimg.com/media/EOQ_tMzWAAIWpoV.jpg')
-}else {
-if(Youlike >=12){
-  document.write('You Should Watch Horror!')
-  document.write('<img src=https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/horror-movies-1597961000.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*')
-
-
-}else if(Youlike >=0){
-  document.write('You Should Watch Romantic Movies ')
-  document.write('<img src=https://www.listchallenges.com/f/lists/45a361e4-d356-415e-9893-853e41404438.jpg')
+for(var i=0;i<images;i++){
+  document.write(usertype);
 }
-
-
-}
-
-
-
-//Welcome TA I'm Munther nice to meet you agian
-
-console.log('Welcom to my Website')
-
 
