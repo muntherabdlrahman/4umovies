@@ -19,10 +19,10 @@ h6{
 
 
 img {
-
+margin:20px ;
 padding-left: 15%;
 height: 400px;
-width: 150%;
+width:400px;
 
   
 }
@@ -31,10 +31,10 @@ width: 150%;
 
 img{
 
-
+margin: 20px;
   padding-left: 15%;
-height: 200px;
-width: 65%;
+height: 400px;
+width:400px ;
 }
 
 
@@ -44,7 +44,7 @@ footer{
   
 
   font-family: w Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background: red
+  background:#810000;
 
 
 
@@ -55,12 +55,49 @@ h5{
 
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  background: yellow;
+  background:#ce1212;
 }
 
 h6{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
-  background: yellow;
+  background:#ce1212;
 }
 
+
+
+nav ul a {
+  display: inline;
+
+margin: 30px;
+
+text-decoration-line: none;
+
+text-align: center;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+li a{
+
+text-decoration-line: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-align: center;
+border: 1xp solid black; 
+
+}
+
+
+
+
+
+
+#fri_p {
+background: #eeebdd
+
+}
+
+
+ff {
+  background: #eeebdd
+}
