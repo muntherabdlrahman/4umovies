@@ -3,6 +3,7 @@
 
 var moviestype;
 
+<<<<<<< HEAD
 var favMovie = function () {
 moviestype= prompt ('What is your favorite type of movies?');
 
@@ -13,12 +14,15 @@ while(moviestype !=='romantic' && moviestype !== 'action' && moviestype !== 'hor
 
 favMovie();
 
+=======
+>>>>>>> a526b63ad57f60afb32f6d432fd7ff77655c6daa
 
 var userType;
 
 function showsMovies(){
 
 
+<<<<<<< HEAD
 if(moviestype ==='romantic'){
   userType='<img src="https://i.pinimg.com/originals/cf/f0/d5/cff0d5e382c6bbca8f2c70f00a5cb23b.jpg" >';
   
@@ -28,6 +32,15 @@ if(moviestype ==='romantic'){
 }else if(moviestype === 'horror'){
   userType='<img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Scary-horror-movies-Netflix-featured.jpg">';
   
+=======
+var usertype;
+if(Moviestype ==='romantic'){
+  usertype='<img src= "https://asformeandmyhomestead.com/wp-content/uploads/2020/02/25-Most-Romantic-Movies-1.jpg">';
+}else if(Moviestype ==='action'){
+  usertype=  '<img src="https://movienasha.com/wp-content/uploads/2016/11/action-movie-1.jpg">';
+}else if(Moviestype === 'horror'){
+  usertype='<img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Scary-horror-movies-Netflix-featured.jpg">';
+>>>>>>> a526b63ad57f60afb32f6d432fd7ff77655c6daa
 }
 
 var imgsNum= prompt('How many movies you will watch?');
