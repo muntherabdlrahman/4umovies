@@ -29,7 +29,7 @@ if(moviestype ==='romantic'){
 
   userType='<img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Scary-horror-movies-Netflix-featured.jpg">';}
 
-  userType='<img src="https://cdn57.androidauthority.net/wp-content/uploads/2019/10/Scary-horror-movies-Netflix-featured.jpg">';
+  
   
 
 
